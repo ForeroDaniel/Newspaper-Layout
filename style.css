@@ -1,0 +1,88 @@
+/* HEADINGS */
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 4.5rem;
+}
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-align: center;
+}
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    list-style: none;
+    color:dimgray;
+}
+a {
+    color: inherit;
+}
+
+
+/* NAVIGATION BAR */
+.nav-flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+    margin: 0%;
+}
+.nav-item{
+    padding: 1rem;
+    
+}
+
+/* GRID LAYOUT & BORDERS */
+.nav-bar {
+    grid-area: nav-bar;
+    border: 1px solid;
+    margin: 0;
+    padding: 0;
+}
+.art-1 {
+    grid-area: art-1;
+    padding: 10px;
+    border: 1px solid;
+    margin: 0;
+}
+.art-2 {
+    grid-area: art-2;
+    padding: 10px;
+    border: 1px solid;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.art-3 {
+    grid-area: art-3;
+    padding: 10px;
+    border: 1px solid;
+    margin: 0;
+}
+.art-4 {
+    grid-area: art-4;
+    padding: 10px;
+    border: 1px solid;
+    margin: 0;
+}
+.art-5 {
+    grid-area: art-5;
+    padding: 10px;
+    border: 1px solid;
+    margin: 0;
+}
+.grid-container{
+    border: 1px solid;
+    display: grid;
+    grid-template-areas: 
+        'nav-bar  nav-bar   nav-bar' 
+        'art-1    art-2     art-3'
+        'art-4    art-5     art-5'
+        ;
+    
+}
